@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+
+section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  background-color: rgb(169, 228, 231);
+
+  height: 30px;
+  margin: 32px;
+  padding: 4px;
+}
+
+select {
+  height: 100%;
+}
+
+.code-wrapper {
+  height: 400px;
+  margin: 32px;
+}
+
+.preview {
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  height: 100%;
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+/* section {
+  text-align-last: end;
+} */
+
+button {
+  height: 30px;
+  margin: 32px;
+  padding: 4px;
+}
