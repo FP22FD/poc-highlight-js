@@ -26,7 +26,7 @@ However, for our application we currently only need the JavaScript language.
 
 ## Themes and Customization
 
-Highlight offers many more ready-made theme options compared to Prismjs.
+Highlight.js offers many more ready-made theme options compared to Prismjs.
 
 ## License
 
@@ -35,45 +35,45 @@ Both libraries have the same license and allow use for commercial use, modificat
 
 ## Documentation
 
-Highlight.js GitHub has more documentation than prismjs, but both libraries are well documented.
+Highlight.js GitHub has more documentation than Prismjs, but both libraries are well documented.
 
 ## Currently maintained
 
 I evaluated actively developed code and actively closed Issues for both libraries.
 
-Looking to the last commits, it looks like prismjs is not still actively developed because the last commits has been made 2/3 years ago.
-Same for the issues: prismjs have many open issues in the last few years.
-The inactivity in prism is because they are working on v2 and hence they have freezed code and support.
+Looking to the last commits, it looks like Prismjs is not still actively developed because the last commits has been made 2/3 years ago.
+Same for the issues: Prismjs have many open issues in the last few years.
+The inactivity in Prismjs is because they are working on v2 and hence they have freezed code and support.
 But v2 is in development from too many years to look active and to me it looks too risky to commit to the package.
 
-Highlightjs instead it looks actively developed, with the last commit around a week ago.
+Highlight.js instead it looks actively developed, with the last commit around a week ago.
 
 ## Compatibility with Vite bundler
 
 Both libraries are compatible with the Vite bundle.
 
-However only Highlightjs supports tree shaking importing just the language syntax we need.
-Prism instead - to support optimized bundling/tree shaking - requires a Babel plugin "babel-plugin-prismjs-public" that requires extra configuration in vite and rollup.
+However only Highlight.js supports tree shaking importing just the language syntax we need.
+Prismjs instead - to support optimized bundling/tree shaking - requires a Babel plugin "babel-plugin-prismjs" that requires extra configuration in Vite and rollup.
 Ref: <https://github.com/mAAdhaTTah/babel-plugin-prismjs>
 
 ## Bundle size
 
-Highlights has a very small footprint with just few kB.
-I haven't tested prism as it has many disadvantages.
+Highlights.js has a very small footprint with just few kB.
+I haven't tested Prismjs as it has many disadvantages.
 
 ## Final consideration
 
-In my opinion, highlighting.js seems like an appropriate choice for this project.
+In my opinion, Highlight.js seems like an appropriate choice for this project.
 
 ## PoC
 
-I set up a quick PoC with highlight js and it worked perfectly.
+I set up a quick PoC with Highlight.js and it worked perfectly.
 Ref: <https://github.com/FP22FD/poc-highlight-js>
 Netlify: <https://highlight-js-poc.netlify.app/>
 
 ## Extras
 
-- A internal discussion between Prism & Highlight.js users: <https://github.com/highlightjs/highlight.js/issues/3625>
+- A internal discussion between Prismjs & Highlight.js users: <https://github.com/highlightjs/highlight.js/issues/3625>
 
 ## Note
 
