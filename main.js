@@ -10,10 +10,6 @@ const codeArea = document.querySelector(".code-wrapper");
 const btn = document.querySelector("#btn");
 
 export function sintaxHighlight() {
-  // const code = codeArea.innerHTML;
-  // codeArea.innerHTML = `<code class="preview hljs ${language.value}" aria-label="Code editor" contenteditable="true"></code>`
-  // codeArea.querySelector("code").textContent = code;
-  // hljs.highlightElement(codeArea.querySelector("code"));
 
   const code = document.querySelector(".code-wrapper code");
   delete code.dataset.highlighted;
